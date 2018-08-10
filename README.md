@@ -1,24 +1,28 @@
-# testing
+# Display Binary Number Using LED Ring
+Created by Rosemary Bianchi [@teachmecs](https://twitter.com/teachmecs)
 
+![Binary LED Ring](https://github.com/teachmecs/binaryleds/raw/master/icon2.png)
 
+## Installation
 
-## TODO
+Create a new project in [Adafruit MakeCode](https://makecode.adafruit.com) and add this extension via Extensions in the Advanced menu.
 
-- [ ] Add a reference for your blocks here
-- [ ] Add "icon.png" image (300x200) in the root folder
-- [ ] Add "- beta" to the GitHub project description if you are still iterating it.
-- [ ] Turn on your automated build on https://travis-ci.org
-- [ ] Use "pxt bump" to create a tagged release on GitHub
-- [ ] Get your package reviewed and approved https://makecode.adafruit.com/packages/approval
+You need to enter the project URL https://github.com/teachmecs/BinaryLEDs, hit return and then select the Binary LEDs package.
 
-Read more at https://makecode.adafruit.com/packages/build-your-own
+## Description
 
-## License
+Displays a binary value of a number between 0 and 1023 using the 10 LEDs in the LED Ring enabling the Circuit Playground to display large numbers precisely. If the decimal number is not within range, it will blink red instead of showing the binary number.
 
+## Example Project
 
+[Binary LEDs Sample Project](https://makecode.com/_f9vK6YP6LMCv)
 
-## Supported targets
+![Binary LED Ring Animated GIF](https://github.com/teachmecs/binaryleds/raw/master/BinaryLEDExample.gif)
 
-* for PXT/codal
-(The metadata above is needed for package search.)
+```project
+    _f9vK6YP6LMCv
+```
 
+## Meta
+
+* PXT/codal
